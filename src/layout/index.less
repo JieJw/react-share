@@ -1,0 +1,34 @@
+.header {
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: #fff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  .header-title {
+    line-height: 36px;
+    font-size: 36px;
+  }
+  .header-author {
+    font-size: 16px;
+  }
+}
+
+.content {
+  height: calc(100vh - 78px);
+  overflow: hidden;
+
+  .sider-content {
+    height: 100%;
+    color: #000;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .ant-layout-content {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 10px 12px;
+    overflow-x: hidden;
+  }
+}
